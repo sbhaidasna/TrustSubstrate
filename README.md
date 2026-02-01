@@ -2,18 +2,12 @@
 
 This repository contains a minimal, inspectable experiment for evaluating **trust behavior** in large language models over time. 
 
-Rather than treating trust as a binary property (“safe / unsafe”), this work models trust as an **emergent property** of sustained interaction—something that must be observed, logged, and evaluated continuously.
+Rather than treating trust as a binary property (“safe / unsafe”), this work models trust as an **emergent property** of sustained interaction, something that must be observed, logged, and evaluated continuously.
 
 ---
 
 ## 🛠 What This Experiment Does
 The system applies **deterministic adversarial pressure** to a language model across multiple turns and records raw behavioral evidence without intervention.
-
-**Key properties:**
-* **No online safety checks**: Prevents the "observer effect" from masking true model behavior.
-* **No adaptive control loops**: The pressure is consistent and predictable.
-* **No evaluation during execution**: All interpretation happens after behavior is recorded.
-* **Hard Boundary**: The model is treated as a black-box system under stress.
 
 ---
 
