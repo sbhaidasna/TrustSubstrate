@@ -18,6 +18,11 @@ The architecture is designed to decouple the **Operational Logic** (the interact
 * Operational logic generates interaction and pressure.
 * Governance logic evaluates behavior after the fact using explicit, human-defined rubrics.
 
+<img width="1456" height="765" alt="image" src="https://github.com/user-attachments/assets/43e3ccc7-632e-4d05-86e3-4ddfa4bcfcc9" />
+
+<img width="1456" height="460" alt="image" src="https://github.com/user-attachments/assets/d921bfb2-1cca-4677-8a5c-2a85753b9265" />
+
+
 > [!IMPORTANT]
 > **The Human Recalibration Loop** (represented as a dotted line in documentation diagrams) represents governance and policy adjustment. The system is designed to provide the evidence required for human decision-making, ensuring that authority over trust boundaries remains outside the autonomous execution loop.
 
